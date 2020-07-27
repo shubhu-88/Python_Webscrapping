@@ -36,7 +36,7 @@ for i,j in k.items():
 
    
 plt.bar(l,r,.35,color='purple')
-plt.title('No of colleges vs District (whose all details are fetched completly)')
+plt.title('District vs No of colleges (whose all details are fetched completly)')
 plt.ylabel('No of colleges')
 plt.xlabel('District')
 plt.xticks(rotation='vertical')
@@ -48,7 +48,7 @@ for i in z:
     yr.append(year.count(i))
 
 plt.bar(z,yr,.35,color='purple')
-plt.title('No of colleges vs Year of establishment (whose all details are fetched completly)')
+plt.title('Year of establishment vs No of colleges (whose all details are fetched completly)')
 plt.ylabel('No of colleges')
 plt.xlabel('Year of establishment')
 plt.xticks(rotation='vertical')
